@@ -1,0 +1,12 @@
+# Sway Window colors
+# Generated with Matugen
+
+# Window: border, background, text, indicator, child_border
+
+#Windows                 #border  #background  #text    #indicator  #child_border
+client.focused           #73332e  #73332e  #ffdad6  #73332e  #73332e 
+client.unfocused         #73332e  #1a1110  #442927  #5d3f3c  #e7bdb8
+client.focused_inactive  #ffb4ab  #ffdad6  #1a1110 
+client.placeholder       #000000  #000000  #f1dedc
+client.urgent            #e0c38c  #584419  #3f2e04
+client.background        #1a1110

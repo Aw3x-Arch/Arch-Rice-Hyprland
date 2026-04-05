@@ -1,0 +1,88 @@
+@import "./colors.css";
+
+* {
+    border: none;
+    border-radius: 0px;
+    font-family: "JetBrainsMono Nerd Font";
+    font-weight: bold;
+    font-size: 16px;
+    min-height: 0;
+    margin: 0px;
+    padding: 0px 2px;
+}
+
+window#waybar {
+    background: transparent;
+    color: white;
+}
+
+#workspaces {
+    padding: 2px 15px;
+    background: @background;
+    border-radius: 30px;
+    margin: 7px 5px;
+}
+
+#workspaces button {
+    padding: 2px 2px;
+    font-size: 24px;
+    color: @primary_fixed_dim;
+    border-bottom: 0px solid transparent;
+}
+
+#workspaces button:hover,
+#workspaces button:focus,
+#workspaces button:active {
+    background: inherit;
+    box-shadow: none;
+    outline: none;
+}
+
+#clock, #pulseaudio, #backlight, #network, #battery, #custom-swaync{
+    color: @primary_fixed_dim;
+}
+#pulseaudio, #backlight, #network, #battery{
+    margin-right: 20px;
+}
+#pulseaudio, #backlight, #network, #battery, #clock{
+    margin-top: 10px;
+}
+#custom-swaync {
+    padding: 2px 15px;
+    background: @background;
+    border-radius: 30px;
+    margin: 7px 5px;
+}
+#clock {
+    padding: 2px 15px;
+    background: @background;
+    border-radius: 30px;
+    margin: 7px 5px;
+}
+#battery {
+    padding: 2px 15px;
+    background: @background;
+    border-radius: 30px;
+    margin: 7px 5px;
+}
+
+#pulseaudio {
+    padding: 0px 15px;
+    background: @background;
+    border-radius: 30px;
+    margin: 7px 5px;
+}
+
+#backlight {
+    padding: 2px 15px;
+    background: @background;
+    border-radius: 30px;
+    margin: 7px 5px;
+}
+
+#network {
+    padding: 0 15px;
+    background: @background;
+    border-radius: 30px;
+    margin: 7px 5px;
+}
